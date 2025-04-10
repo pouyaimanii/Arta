@@ -50,6 +50,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
 
 
 
@@ -94,6 +95,8 @@ export default function Home() {
 
         </div>
       </div>
+=======
+>>>>>>> 2f38e645be198ec966ccd22e648a75ce36a58ae5
     </div>
   );
 }
