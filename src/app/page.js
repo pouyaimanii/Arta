@@ -50,6 +50,50 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+      <div className="flex flex-row justify-between items-center">
+        <div className="grid grid-cols-1 gap-10">
+          <div className="flex flex-row justify-center items-start text-5xl">
+          <h1>نام آوران اندیشه آرتا</h1>
+          {/* <div className=""></div> */}
+          </div>
+          <div className="grid gap-6">
+            <div className="flex flex-row items-center">
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهمون</p>
+            </div>
+            <div className="flex flex-row items-center">
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهمون</p>
+            </div>
+            <div className="flex flex-row items-center">
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهمون</p>
+            </div>
+            <div className="flex flex-row items-center">
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهمون</p>
+            </div>
+          </div>
+          <div className="flex flex-row items-center gap-5">
+          <button className="btn btn-sm md:btn-md bg-red flex flex-row items-center rounded-xl font-normal text-white px-3 md:px-4 py-2">
+              <Icon icon="material-symbols:package-2" className="w-5 md:w-6 h-5 md:h-6 text-gray-700 mr-2" />
+              محصولات
+            </button>
+            <button className="btn btn-sm md:btn-md bg-background flex flex-row items-center rounded-xl font-normal text-black px-3 md:px-4 py-2">
+              <Icon icon="material-symbols:package-2" className="w-5 md:w-6 h-5 md:h-6 text-gray-700 mr-2" />
+              محصولات
+            </button>
+          
+          </div>
+          
+          
+        </div>
+        <div>
+
+        </div>
+      </div>
     </div>
   );
 }
