@@ -10,11 +10,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fa" dir="rtl">
-      <body className="antialiased font-sans bg-background">
-      <div className="container mx-auto">
+    <html lang="fa" dir="rtl"  data-theme="mytheme">
+      <body className="antialiased font-sans" data-theme="mytheme">
+      {/* <div className="container mx-auto"> */}
         {children}
-        </div>
+        {/* </div> */}
       </body>
     </html>
   );
